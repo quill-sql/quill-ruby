@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.description   = "Quill sdk for Ruby. See quill.co for more information."
   spec.authors       = ["Shawn Magee, Albert Yan"]
   spec.email         = ["shawn@quill.co"]
-  spec.files         = Dir["lib/**/*", "examples/**/*", "LICENSE", "README.md"]
+  spec.files         = Dir["lib/**/*", "LICENSE", "README.md"]
   spec.homepage      = "https://github.com/quill-sql/quill-ruby"
   spec.license       = "MIT"
 
@@ -18,8 +18,6 @@ Gem::Specification.new do |spec|
 
   # Development dependencies
   spec.add_development_dependency "rubocop"
-  spec.add_development_dependency "sinatra"
-  spec.add_development_dependency "sinatra-cors"
 
   spec.required_ruby_version = ">= 2.7.0"
 end
